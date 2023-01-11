@@ -18,7 +18,11 @@ public class ArrayListLInkedListTest {
         System.out.println("=순차적으로 삭제하기=");
         System.out.println("ArrayList:"+remove1(al));
         System.out.println("LinkedList:"+remove1(ll));
+        ArrayList al1 = new ArrayList(1000000);
+        for(int i =0; i< al1.size();i++) al1.add(i+"");
 
+        LinkedList al2 = new LinkedList(al1);//Casing가능
+        for(int i = 0 ;i<1000;i++) al2.add(400,"x");
 
     }
     public static long add1(List list){
