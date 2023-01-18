@@ -48,7 +48,7 @@ public class GenericsEx {
 //class Toy{public String toString(){return "Toy";}}
 
 interface Eatable{
-
+ 
 }
 class Orange implements Eatable{
     public String toString(){
